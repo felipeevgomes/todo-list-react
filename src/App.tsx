@@ -1,11 +1,11 @@
-import { useState } from "react";
+
 import { Header } from "./components/Headear/Header";
 import { Taskes } from "./components/Tasks/Taskes";
 
 import "./App.css";
 
 function App() {
-  const [toogle, setToogle] = useState(false);
+  //const [toogle, setToogle] = useState(false);
 /*
   useEffect(() => {
     console.log("Executando a função do UseEffect...");
@@ -25,12 +25,6 @@ function App() {
     <>
       <Header />
       <Taskes />
-
-      <button
-        onClick={() => {
-          setToogle(!toogle);
-        }}
-      ></button>
     </>
   );
 }
