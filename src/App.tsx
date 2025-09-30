@@ -3,6 +3,7 @@ import { Header } from "./components/Headear/Header";
 import { Taskes } from "./components/Tasks/Taskes";
 
 import "./App.css";
+import { Refs } from "./components/Concepts/Refs";
 
 function App() {
   //const [toogle, setToogle] = useState(false);
@@ -25,6 +26,8 @@ function App() {
     <>
       <Header />
       <Taskes />
+
+      <Refs/>
     </>
   );
 }
