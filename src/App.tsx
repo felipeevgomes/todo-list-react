@@ -1,13 +1,12 @@
-
 import { Header } from "./components/Headear/Header";
 import { Taskes } from "./components/Tasks/Taskes";
 
 import "./App.css";
-import { Refs } from "./components/Concepts/Refs";
+import { Memorization } from "./components/Concepts/Memorization";
 
 function App() {
   //const [toogle, setToogle] = useState(false);
-/*
+  /*
   useEffect(() => {
     console.log("Executando a função do UseEffect...");
 
@@ -26,8 +25,9 @@ function App() {
     <>
       <Header />
       <Taskes />
-
-      <Refs/>
+      <Memorization
+        finacialData={{ inomes: [50, 30, 20], outcomes: [5, 8, 4] }}
+      />
     </>
   );
 }

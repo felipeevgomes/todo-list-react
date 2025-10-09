@@ -11,14 +11,14 @@ export const Taskes: React.FC = () => {
   const [taskTitle, setTaskTitle] = useState("");
   const [tasks, setTasks] = useState([] as Task[]);
 
-  //função disparada quando o usuario esta querendo adicionar uma nova tarefa
+  //função disparada quando o usuario esta querendo adicionar  uma nova tarefa
   function handleSubmitAddTask(event: FormEvent) {
     event.preventDefault();
     if (taskTitle.length < 3) {
       alert("Não é possivel adicionar uma tarefa com menos de 3 letras..");
       return;
     }
-
+ 
     //adiciona tarefa
     const newTasks = [
       ...tasks, //pega todas as tarefas que já existiam e coloca nesse novo valor do estado de tarefas

@@ -1,5 +1,0 @@
-exports function hoi(){
-  djsabjdashbdjdhjasdhbasdbjkasdbkahsdbkhsadbkhdhka
-}
-
-}
